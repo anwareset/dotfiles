@@ -33,7 +33,7 @@ Here is some details about my machine's system.
 
 
 # Preview
-
+Some screenshots that might interest you to destroy your system with this configuration
 ## Desktop
 ![openbox](https://github.com/anwareset/my-dotfiles/raw/master/scrot1.png)
 ## Login
@@ -44,4 +44,4 @@ Here is some details about my machine's system.
 ![plymouth](https://github.com/anwareset/my-dotfiles/raw/master/scrot4.jpeg)
 
 # Final Warning
-Please be careful if you wanna use/consume it. It may break your system! Just DWYOR (Do With Your Own Risk).
+Please be careful if you wanna use/consume it. It may break your system! Just DWYOR (Do With Your Own Risk). 
