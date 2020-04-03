@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# ~/.xprofile
+# sourced at boot by ~/.xinitrc and display managers like lightdm
+
+# Export VISUAL and EDITOR to Vim
+export VISUAL=vim
+export EDITOR=vim
+export XDG_CURRENT_DESKTOP=Openbox
+export DESKTOP_SESSION=Openbox
+
+# Override GPU Driver
+#export LIBVA_DRIVER_NAME=r600
+
+# Composer
+#export PATH=$PATH:$HOME/.config/composer/vendor/bin
+
+# Android SDK Manager & Flutter
+#export ANDROID_HOME=$HOME/Android/Sdk
+#export PATH=$PATH:$HOME/.local/bin:ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$HOME/Android/flutter/bin

@@ -1,0 +1,23 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: stop
+current: 3
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Beach-House/BEACH HOUSE - MYTH.mp3
+1:Fur/FUR - BROTHER.mp3
+2:Jai-Wolf/Jai Wolf - Starlight.mp3
+3:Lord-Huron/Lord Huron - The Night We Met.mp3
+4:Neckdeep/Neck Deep - Wish You Were Here.mp3
+5:Teen-Blush/TEEN BLUSH - Felt Like Home.mp3
+6:The-Midnight/The Midnight - Los Angeles.mp3
+7:The-Smiths/The Smiths - Asleep.mp3
+8:Turnover/Turnover - Dizzy On The Comedown.mp3
+playlist_end

@@ -1,0 +1,40 @@
+## Font Refresh
+exec xset +fp ~/.fonts/misc/ &
+
+## Set Backlight Brightness
+#exec xbacklight -set 5 &
+
+## Disable Beep
+exec xset -b &
+
+## Restore Wallpaper
+exec nitrogen --restore &
+
+## Start Compositing Manager
+exec compton -b &
+
+## Launch Polybar
+sh ~/.config/polybar/launch.sh
+
+## Start Music Player Daemon
+exec mpd &
+
+## Notification Daemon
+#exec dunst &
+exec systemctl --user import-environment DISPLAY &
+
+## Thunar Daemon
+exec thunar --daemon &
+
+## Enable Super Keys For Menu
+#ksuperkey -e 'Super_L=Alt_L|F1' &
+#ksuperkey -e 'Super_R=Alt_L|F1' &
+
+## xfce4-settings daemon
+xfsettingsd &
+
+## Enable power management
+xfce4-power-manager &
+
+## About
+# sleep 4 && /usr/local/bin/about.sh
