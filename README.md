@@ -39,9 +39,9 @@ Here is some details about my machine's system.
 ## Login
 ![slim](https://github.com/anwareset/my-dotfiles/raw/master/scrot2.png)
 ## GRUB
-![grub](https://github.com/anwareset/my-dotfiles/raw/master/scrot3.png)
+![grub](https://github.com/anwareset/my-dotfiles/raw/master/scrot3.jpg)
 ## Splashscreen
-![plymouth](https://github.com/anwareset/my-dotfiles/raw/master/scrot4.png)
+![plymouth](https://github.com/anwareset/my-dotfiles/raw/master/scrot4.jpeg)
 
 # Final Warning
 Please be careful if you wanna use/consume it. It may break your system! Just DWYOR (Do With Your Own Risk).
