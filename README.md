@@ -15,7 +15,7 @@ Here is some details about my machine's system.
 | DM                       | SLiM                   |
 | Bar                 	   | Polybar                |
 | Notification             | Dunst                  |
-| Terminal Emulator        | Urxvt                  |
+| Terminal Emulator        | URxvt                  |
 | Text Editor(s)           | Vim, Gedit             |
 
 ## Hardware Details
