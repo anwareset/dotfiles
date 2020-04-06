@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# A simple script to display clock
+# 'blight -i' = with icon, 'blight' = text only
+
+# Use this if you have Intel GPU
+#BNESS="$(cat /sys/class/backlight/intel_backlight/actual_brightness)"
+
+#Use this if you have Radeon GPU
+BNESS="$(cat /sys/class/backlight/acpi_video0/actual_brightness)"
+	if  [[ $1 = "-i" ]]; then
+    echo "  $((BNESS*100/15))%"
+	else
+    echo "$((BNESS*100/15))%"
+    fi

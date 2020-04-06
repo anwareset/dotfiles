@@ -1,0 +1,4 @@
+#!/bin/bash
+# notify-send to dunst
+
+xbacklight -dec 10 && notify-send -u low 'Brightness Dec' $(blight) -h string:x-canonical-private-synchronous:brightness

@@ -1,0 +1,4 @@
+#!/bin/bash
+# notify-send to dunst
+
+amixer -Mq set Master,0 5%+ unmute && notify-send -u low 'Volume Rise' $(volume) -h string:x-canonical-private-synchronous:volume
