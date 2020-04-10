@@ -4,7 +4,7 @@
 <!--	<separator label="Main Menu"/>  -->
 		<item label="Terminal Emulator">
 			<action name="Execute">
-				<command>termite</command>
+				<command>urxvt</command>
 			</action>
 		</item>
 		<item label="Web Browser">

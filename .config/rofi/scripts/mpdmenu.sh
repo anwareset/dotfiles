@@ -48,16 +48,16 @@ fi
 chosen="$(echo -e "$options" | $rofi_command -p "$current" -dmenu $active $urgent -selected-row 1)"
 case $chosen in
     $previous)
-        mpc -q prev
+        mpc -q prev && mpdplaynow
         ;;
     $play_pause)
-        mpc -q toggle
+        mpc -q toggle && mpdplaynow
         ;;
     $stop)
         mpc -q stop
         ;;
     $next)
-        mpc -q next
+        mpc -q next && mpdplaynow
         ;;
     $tog_repeat)
         mpc -q repeat

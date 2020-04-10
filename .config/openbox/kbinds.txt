@@ -1,4 +1,4 @@
-2020-04-02	rc.xml KEYBINDS
+2020-04-08	rc.xml KEYBINDS
 -------------------------------
 
  0	W-1           				GoToDesktop
@@ -12,7 +12,7 @@
  8	S-W-4         				SendToDesktop
  9	S-W-5         				SendToDesktop
 10	A-Tab         				NextWindow
-11	W-Tab         				NextWindow
+11	W-Tab         				skippy-xd
 12	W-Left        				UnmaximizeFull
 13	W-Right       				UnmaximizeFull
 14	W-Up          				MaximizeFull

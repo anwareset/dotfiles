@@ -42,6 +42,8 @@ Some screenshots that might interest you to destroy your system with this config
 ![grub](https://github.com/anwareset/my-dotfiles/raw/master/scrot3.jpg)
 ## Splashscreen
 ![plymouth](https://github.com/anwareset/my-dotfiles/raw/master/scrot4.jpeg)
+## Lockscreen
+![i3lockblur](https://github.com/anwareset/my-dotfiles/raw/master/scrot5.png)
 
 # Final Warning
 Please be careful if you wanna use/consume it. It may break your system! Just DWYOR (Do With Your Own Risk). 

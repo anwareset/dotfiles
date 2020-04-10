@@ -24,39 +24,39 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Terminus (TTF)</name>
-      <size>9</size>
-      <weight>Bold</weight>
+      <name>Hack Nerd Font</name>
+      <size>8</size>
+      <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
-      <name>Terminus (TTF)</name>
-      <size>9</size>
-      <weight>Bold</weight>
+      <name>Hack Nerd Font</name>
+      <size>8</size>
+      <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
-      <name>Terminus (TTF)</name>
-      <size>9</size>
-      <weight>Bold</weight>
+      <name>Hack Nerd Font</name>
+      <size>8</size>
+      <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
-      <name>Terminus (TTF)</name>
-      <size>9</size>
-      <weight>Bold</weight>
+      <name>Hack Nerd Font</name>
+      <size>8</size>
+      <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Terminus (TTF)</name>
-      <size>9</size>
-      <weight>Bold</weight>
+      <name>Hack Nerd Font</name>
+      <size>8</size>
+      <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Terminus (TTF)</name>
-      <size>9</size>
-      <weight>Bold</weight>
+      <name>Hack Nerd Font</name>
+      <size>8</size>
+      <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
   </theme>
@@ -165,9 +165,9 @@
       </action>
     </keybind>
     <keybind key="W-Tab">
-     <action name="Execute">
+      <action name="Execute">
         <command>skippy-xd</command>
-      </action> 
+      </action>
     </keybind>
     <!-- Window Tiling: Snap feature -->
     <keybind key="W-Left">
@@ -429,7 +429,7 @@
     </keybind>
     <keybind key="C-A-l">
       <action name="Execute">
-        <command>i3lock</command>
+        <command>i3lockblur</command>
       </action>
     </keybind>
     <keybind key="C-A-t">
