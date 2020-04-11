@@ -4,7 +4,7 @@
 
 
 # System Details
-Here is some details about my machine's system.
+>Here is some details about my machine's system.
 ## Software Details
 | Item                     | Value                  |
 | ------------------------ |:----------------------:|
@@ -33,7 +33,6 @@ Here is some details about my machine's system.
 
 
 # Preview
-Some screenshots that might interest you to destroy your system with this configuration
 ![openbox](https://github.com/anwareset/my-dotfiles/raw/master/preview.gif)
 
 # Final Warning
