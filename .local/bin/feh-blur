@@ -147,10 +147,12 @@ get_current_workspace() {
 get_open_windows_count() {
   count=0
   workspace="$(get_current_workspace)"
-  for id in $(wmctrl -l | cut -d' ' -f1);do
-    if [[ $(wmctrl -l | grep $id | cut -d' ' -f3) == $workspace ]]
-    then
-      xprop -id "$id" | grep -Fq 'window state: Iconic' || ((count++))
+  for id in $(wmctrl -l | cut -d' ' -f1 | tail -n +2);do
+    if [[ $(wmctrl -l | grep $id | cut -d' ' -f3 | tail -n1) == $workspace ]]; then
+        ((count++))
+        if [[ $(xprop -id "$id" | grep -c "_NET_WM_STATE(ATOM) = _NET_WM_STATE_HIDDEN") == "1" ]]; then
+            ((count--))
+        fi
     fi
   done
   echo $count

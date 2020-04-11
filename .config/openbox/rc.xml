@@ -490,7 +490,9 @@
       <action name="ToggleDecorations"/>
     </keybind>
     <keybind key="W-d">
-      <action name="ToggleShowDesktop"/>
+      <action name="Execute">
+        <command>minimizer</command>
+      </action>
     </keybind>
     <keybind key="A-r">
       <action name="Resize"/>

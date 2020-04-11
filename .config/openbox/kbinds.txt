@@ -1,4 +1,4 @@
-2020-04-08	rc.xml KEYBINDS
+2020-04-11	rc.xml KEYBINDS
 -------------------------------
 
  0	W-1           				GoToDesktop
@@ -58,7 +58,7 @@
 54	C-A-s         				~/.config/rofi/scripts/scrotmenu.sh
 55	C-A-x         				~/.config/rofi/scripts/powermenu.sh
 56	C-A-Delete     			~/.config/rofi/scripts/powermenu.sh
-57	C-A-l         				i3lock
+57	C-A-l         				i3lockblur
 58	C-A-t         				urxvt
 59	C-A-u         				xfce4-terminal
 60	C-A-f         				pcmanfm

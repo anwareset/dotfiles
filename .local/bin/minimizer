@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# get_current_workspace => "2"
+get_current_workspace() {
+     wmctrl -d | grep '\*' | cut -d' ' -f1
+}
+
+workspace="$(get_current_workspace)"
+for id in $(wmctrl -l | cut -d' ' -f1 | tail -n +2);do
+    if [[ $(wmctrl -l | grep $id | cut -d' ' -f3 | tail -n1) == $workspace ]]; then
+        xdotool windowminimize $id
+    fi
+done

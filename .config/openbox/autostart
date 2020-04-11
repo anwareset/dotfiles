@@ -11,7 +11,9 @@ exec xset +fp ~/.fonts/misc/ &
 exec xset -b &
 
 ## Restore Wallpaper
-exec nitrogen --restore &
+#exec nitrogen --restore &
+~/.fehbg &
+feh-blur -b 4 --darken 4 --no-animate -d
 
 ## Start Compositing Manager
 exec compton -b &
