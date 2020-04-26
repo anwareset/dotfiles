@@ -1,5 +1,5 @@
 <p align="center">
-	<a name="top" href="https://github.com/anwareset/my_dotfiles"><img src="http://dotfiles.github.io/images/dotfiles-logo.png"></a>
+	<a name="top" href="https://github.com/anwareset/my-dotfiles"><img src="https://raw.githubusercontent.com/anwareset/my-dotfiles/master/.my-dotfiles.png"></a>
 </p>
 
 
