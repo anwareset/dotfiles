@@ -1,0 +1,3 @@
+#!/bin/bash
+
+notify-send -u low "Now Playing ♫" "$(mpc current)" -h string:x-canonical-private-synchronous:mpdplaynow
