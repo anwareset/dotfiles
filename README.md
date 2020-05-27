@@ -36,4 +36,4 @@
 ![openbox](https://github.com/anwareset/my-dotfiles/raw/master/preview.gif)
 
 # Final Warning
-Please be careful if you wanna use/consume it. It may break your system! Just DWYOR (Do With Your Own Risk). 
+Please be careful if you wanna use/consume it. It may break your system!!! Just DWYOR (Do With Your Own Risk). 
