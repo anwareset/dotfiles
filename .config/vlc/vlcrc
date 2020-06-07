@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 3.0.8
+###  vlc 3.0.9.2
 ###
 
 ###
@@ -15,6 +15,42 @@
 
 # Open GL/GLES hardware converter (string)
 #glconv=
+
+# Rendering intent for color conversion (integer)
+#rendering-intent=1
+
+# Display primaries (integer)
+#target-prim=0
+
+# Display gamma / transfer function (integer)
+#target-trc=0
+
+# Tone-mapping algorithm (integer)
+#tone-mapping=3
+
+# Tone-mapping parameter (float)
+#tone-mapping-param=0.000000
+
+# Highlight clipped pixels (boolean)
+#tone-mapping-warn=0
+
+# Dithering algorithm (integer)
+#dither-algo=-1
+
+# Dither depth override (0 = framebuffer depth) (integer)
+#dither-depth=0
+
+# Desaturation strength (float)
+#desat-strength=0.750000
+
+# Desaturation exponent (float)
+#desat-exponent=1.500000
+
+# Desaturation base (float)
+#desat-base=0.180000
+
+# Maximum brightness boost (float)
+#max-boost=0.000000
 
 [fb] # GNU/Linux framebuffer video output
 
@@ -600,6 +636,15 @@
 # Use regular HTTP modules (boolean)
 #adaptive-use-access=0
 
+# Live Playback delay (ms) (integer)
+#adaptive-livedelay=15000
+
+# Max buffering (ms) (integer)
+#adaptive-maxbuffer=30000
+
+# Low latency (integer)
+#adaptive-lowlatency=-1
+
 [playlist] # Playlist
 
 # Skip ads (boolean)
@@ -817,6 +862,29 @@
 
 # Y offset (integer)
 #sout-mosaic-bridge-y=-1
+
+[stream_out_chromecast] # Chromecast stream output
+
+# ? (string)
+#sout-chromecast-ip=
+
+# ? (integer)
+#sout-chromecast-port=8009
+
+# ? (boolean)
+#sout-chromecast-video=1
+
+# HTTP port (integer)
+#sout-chromecast-http-port=8010
+
+# Performance warning (integer)
+#sout-chromecast-show-perf-warning=1
+
+# Enable Audio passthrough (boolean)
+#sout-chromecast-audio-passthrough=0
+
+# Conversion quality (integer)
+#sout-chromecast-conversion-quality=1
 
 [stream_out_transcode] # Transcode stream output
 
@@ -1653,10 +1721,10 @@
 #sout-x264-stats=x264_2pass.log
 
 # Default preset setting used (string)
-#sout-x264-preset=
+sout-x264-preset=ultrafast
 
 # Default tune setting used (string)
-#sout-x264-tune=
+sout-x264-tune=film
 
 # x264 advanced options (string)
 #sout-x264-options=
@@ -1761,6 +1829,14 @@
 
 # Psycho-acoustic model (integer)
 #sout-twolame-psy=3
+
+[dav1d] # Dav1d video decoder
+
+# Frames Threads (integer)
+#dav1d-thread-frames=0
+
+# Tiles Threads (integer)
+#dav1d-thread-tiles=0
 
 [aribsub] # ARIB subtitles decoder
 
@@ -1969,7 +2045,7 @@
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 3.0.8 Vetinari
+#sout-avi-encoder=VLC Media Player - 3.0.9.2 Vetinari
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -2565,6 +2641,23 @@
 
 # Auto connection (boolean)
 #jack-input-auto-connect=0
+
+[access_srt] # SRT input
+
+# SRT chunk size (bytes) (integer)
+#chunk-size=1316
+
+# Return poll wait after timeout milliseconds (-1 = infinite) (integer)
+#poll-timeout=-1
+
+# SRT latency (ms) (integer)
+#latency=125
+
+# Password for stream encryption (string)
+#passphrase=
+
+# Crypto key length in bytes (integer)
+#key-length=16
 
 [sap] # Network streams (SAP)
 
@@ -3378,6 +3471,23 @@ qt-privacy-ask=0
 # Metacube (boolean)
 #sout-http-metacube=0
 
+[access_output_srt] # SRT stream output
+
+# SRT chunk size (bytes) (integer)
+#chunk-size=1316
+
+# Return poll wait after timeout milliseconds (-1 = infinite) (integer)
+#poll-timeout=100
+
+# SRT latency (ms) (integer)
+#latency=125
+
+# Password for stream encryption (string)
+#passphrase=
+
+# Crypto key length in bytes (integer)
+#key-length=16
+
 [udp] # UDP stream output
 
 # Caching value (ms) (integer)
@@ -3451,7 +3561,7 @@ qt-privacy-ask=0
 [freetype] # Freetype2 font renderer
 
 # Font (string)
-#freetype-font=Serif Bold
+freetype-font=DejaVu Sans
 
 # Monospace Font (string)
 #freetype-monofont=Monospace
@@ -3466,7 +3576,7 @@ qt-privacy-ask=0
 #freetype-opacity=255
 
 # Text default color (integer)
-#freetype-color=16777215
+freetype-color=16776960
 
 # Force bold (boolean)
 #freetype-bold=0
@@ -3854,7 +3964,7 @@ vout=gl
 #meta-url=
 
 # File caching (ms) (integer)
-#file-caching=300
+#file-caching=1000
 
 # Live capture caching (ms) (integer)
 #live-caching=300

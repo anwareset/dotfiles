@@ -2,7 +2,7 @@
 
 ## Created By Aditya Shakya
 
-MENU="$(rofi -config ~/.config/rofi/themes/config.simple -sep "|" -dmenu -i -p 'System' -width 12 -hide-scrollbar -line-padding 4 -padding 20 -lines 4 <<< " Lock| Logout| Reboot| Shutdown")"
+MENU="$(rofi -config ~/.config/rofi/themes/config.simple -sep "|" -dmenu -i -p 'System' -width 12 -hide-scrollbar -line-padding 4 -padding 20 -lines 4 <<< " Lock| Logout|🔁 Reboot|🔌 Shutdown")"
             case "$MENU" in
                 *Lock) i3lockblur ;;
                 *Logout) openbox --exit ;;

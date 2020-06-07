@@ -1,7 +1,7 @@
 /**
  * Allows to change the settings of every menu simply by editing this file
  */
-@import "colorschemes/megma.rasi"
+@import "colorschemes/sakura.rasi"
 @import "resolutions/1366x768.rasi"
 
 #window {

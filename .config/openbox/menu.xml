@@ -4,7 +4,7 @@
 <!--	<separator label="Main Menu"/>  -->
 		<item label="Terminal Emulator">
 			<action name="Execute">
-				<command>urxvt</command>
+				<command>xfce4-terminal</command>
 			</action>
 		</item>
 		<item label="Web Browser">

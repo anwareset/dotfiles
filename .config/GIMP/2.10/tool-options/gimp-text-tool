@@ -1,0 +1,10 @@
+# GIMP gimp-text-tool options
+
+(foreground (color-rgb 0.99607843137254903 1 1))
+(palette "Color History")
+(font "Cambria Bold")
+(font-size 40)
+(justify fill)
+(box-mode fixed)
+
+# end of gimp-text-tool options

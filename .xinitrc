@@ -6,4 +6,4 @@
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
 # Execute Openbox session
-exec openbox-session
+exec dbus-launch openbox-session

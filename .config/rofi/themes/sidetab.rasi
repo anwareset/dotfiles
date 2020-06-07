@@ -20,8 +20,8 @@ configuration {
         background-color:           #141c21;
         text-color:                 #93a1a1;
 
-        accent-color:               #d42434;
-        accent2-color:              #CB4551;
+        accent-color:               #A1769D;
+        accent2-color:              #A1769D;
         hover-color:                #39454b;
         urgent-color:               #ff5252;
         window-color:               #ffffff;

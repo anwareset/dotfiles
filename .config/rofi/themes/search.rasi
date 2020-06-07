@@ -13,7 +13,7 @@ configuration {
 
 * {
   base-bg: #141c21;
-  apps-fg: #d42434;
+  apps-fg: #A1769D;
   entry-fg: #93a1a1;
   selected-bg: #141c21;
   base-color: #93a1a1;

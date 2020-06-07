@@ -1,7 +1,16 @@
 [Default Applications]
 video/x-matroska=vlc.desktop
+text/plain=userapp-gedit"-RG0RJ0.desktop
+image/png=viewnior.desktop
 
 [Added Associations]
 video/x-matroska=vlc.desktop;
 video/mp4=vlc.desktop;
-text/plain=vim.desktop;vlc.desktop;
+text/plain=vim.desktop;userapp-gedit"-RG0RJ0.desktop;org.gnome.gedit.desktop;vlc.desktop;
+application/octet-stream=userapp-"nano"-11VDK0.desktop;mousepad.desktop;vim.desktop;org.gnome.gedit.desktop;
+image/png=gimp.desktop;viewnior.desktop;feh.desktop;
+image/jpeg=gimp.desktop;viewnior.desktop;
+application/x-desktop=vim.desktop;
+application/x-subrip=org.gnome.gedit.desktop;
+application/x-ms-dos-executable=wine.desktop;
+application/pdf=firefox.desktop;atril.desktop;
